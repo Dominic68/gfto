@@ -53,6 +53,7 @@ h3{
 }
 
 #menu {
+    background: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.8);
     height: 64px;
     width: 100%;
@@ -126,6 +127,7 @@ h3{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size:  cover;
     height:1026px;
 }
 #logo{
@@ -139,6 +141,12 @@ h3{
 
 /***fund description***/
 #fund_description{
+    background: #F1F1F1;
+    background-image: url('../img/fund_description/fund_description_background.png'),-webkit-gradient(radial, 506px 506px, #ffffff, #f1f1f1);
+    background-image: url('../img/fund_description/fund_description_background.png'),-webkit-radial-gradient(506px 506px, #ffffff, #f1f1f1);
+    background-image: url('../img/fund_description/fund_description_background.png'),-moz-radial-gradient(506px 506px, #ffffff, #f1f1f1);
+    background-image: url('../img/fund_description/fund_description_background.png'),-o-radial-gradient(506px 506px, #ffffff, #f1f1f1);
+    background-image: url('../img/fund_description/fund_description_background.png'),-ms-radial-gradient(506px 506px, #ffffff, #f1f1f1);
     background-image: url('../img/fund_description/fund_description_background.png'),radial-gradient(506px 506px, #ffffff, #f1f1f1);
     background-position: center center;
     background-repeat: no-repeat;
@@ -172,6 +180,8 @@ h3{
 }
 #read_more a{
     border:2px solid #000000;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
     border-radius:2px;
     color:#000000;
     font-family: Exo2Regular;
@@ -284,6 +294,12 @@ h3{
 
 /***contacts***/
 #fund_contacts{
+    background: #F1F1F1;
+    background-image: -webkit-gradient-gradient(radial, 506px 506px, #FFF, #F1F1F1);
+    background-image: -webkit-radial-gradient(506px 506px, #FFF, #F1F1F1);
+    background-image: -moz-radial-gradient(506px 506px, #FFF, #F1F1F1);
+    background-image: -o-radial-gradient(506px 506px, #FFF, #F1F1F1);
+    background-image: -ms-radial-gradient(506px 506px, #FFF, #F1F1F1);
     background-image: radial-gradient(506px 506px, #FFF, #F1F1F1);
     background-position: center center;
     background-repeat: no-repeat;
